@@ -187,10 +187,6 @@ namespace Intermediate
                 display("Average weight: " + item.Avg);
                 display();
             }
-
-            var query2 = petsList2.GroupBy(
-              pet => Math.Floor(pet.Age),
-              pet => pet.Weight);
         }
 
         private void display(string msg="")
@@ -200,7 +196,6 @@ namespace Intermediate
 
             textBox1.Text += Environment.NewLine;
         }
-
 
         //unwanted
         private void IntermForm1_Load(object sender, EventArgs e)
