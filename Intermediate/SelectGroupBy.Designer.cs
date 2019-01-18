@@ -1,6 +1,6 @@
 ﻿namespace Intermediate
 {
-    partial class IntermForm1
+    partial class SelectGroupBy
     {
         /// <summary>
         /// Required designer variable.

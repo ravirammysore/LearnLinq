@@ -16,7 +16,7 @@ namespace Intermediate
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IntermForm1());
+            Application.Run(new MenuInterm());
         }
     }
 }

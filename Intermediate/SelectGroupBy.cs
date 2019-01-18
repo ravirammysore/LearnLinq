@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Intermediate.Models.Set1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,10 +11,10 @@ using System.Windows.Forms;
 
 namespace Intermediate
 {
-    public partial class IntermForm1 : Form
+    public partial class SelectGroupBy : Form
     {
         PetOwner[] petOwners;
-        public IntermForm1()
+        public SelectGroupBy()
         {
             InitializeComponent();
             initPetOwners();

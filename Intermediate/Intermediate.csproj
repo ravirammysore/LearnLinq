@@ -46,18 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntermForm1.cs">
+    <Compile Include="GroupJoinInterm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IntermForm1.Designer.cs">
-      <DependentUpon>IntermForm1.cs</DependentUpon>
+    <Compile Include="GroupJoinInterm.Designer.cs">
+      <DependentUpon>GroupJoinInterm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pet.cs" />
-    <Compile Include="PetOwner.cs" />
+    <Compile Include="Models\Set2\Person.cs" />
+    <Compile Include="Models\Set2\Pet.cs" />
+    <Compile Include="SelectGroupBy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectGroupBy.Designer.cs">
+      <DependentUpon>SelectGroupBy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuInterm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuInterm.Designer.cs">
+      <DependentUpon>MenuInterm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Set1\Pet.cs" />
+    <Compile Include="Models\Set1\PetOwner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="IntermForm1.resx">
-      <DependentUpon>IntermForm1.cs</DependentUpon>
+    <EmbeddedResource Include="GroupJoinInterm.resx">
+      <DependentUpon>GroupJoinInterm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectGroupBy.resx">
+      <DependentUpon>SelectGroupBy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuInterm.resx">
+      <DependentUpon>MenuInterm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,5 +101,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

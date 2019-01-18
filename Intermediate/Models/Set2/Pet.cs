@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Intermediate
+namespace Intermediate.Models.Set2
 {
-    class PetOwner
+    class Pet
     {
         public string Name { get; set; }
-        public List<string> Pets { get; set; }
+        public Person Owner { get; set; }
     }
 }
